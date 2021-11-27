@@ -5,7 +5,7 @@ let woody_dark_path_or_zigzag_sandy_route = prompt ("SELECT EITHER 1 or 2 for ad
 if(woody_dark_path_or_zigzag_sandy_route==1)
 
 {
- let dark_path_to_left_or_dark_path_to_right= prompt ("MOVING ON.....SELECT EITHER 1 or 2 ONCE MORE for further adventure: 1: DARK PATH ON THE LEFT OR 2: DARK PATH ON THE RIGHT? *NUMBER ONLY PLEASE*");
+ let dark_path_to_left_or_dark_path_to_right= prompt ("MOVING ON....SELECT EITHER 1 or 2 ONCE MORE for further adventure: 1: DARK PATH ON THE LEFT OR 2: DARK PATH ON THE RIGHT? *NUMBER ONLY PLEASE*");
     
     if (dark_path_to_left_or_dark_path_to_right==1)
     {
