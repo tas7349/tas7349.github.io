@@ -1,5 +1,5 @@
 alert ("You are a victim of a shipwreck and have been stranded on a deserted island with no human life around. You have no money and you are extremely tired and hungry. You see two routes in front of you. Choose the correct route to resuce yourself! GOOD LUCK!"); 
-let woody_dark_path_or_zigzag_sandy_route = prompt ("SELECT EITHER *NUMBER* (1 or 2) for adventure: 1: WOODY DARK PATH OR 2: ZIG ZAG SANDY ROUTE?");
+let woody_dark_path_or_zigzag_sandy_route = prompt ("SELECT EITHER 1 or 2 for adventure: 1: WOODY DARK PATH OR 2: ZIG ZAG SANDY ROUTE?");
 
 
 if(!( woody_dark_path_or_zigzag_sandy_route == 1 || woody_dark_path_or_zigzag_sandy_route == 2))
@@ -9,7 +9,7 @@ else {
 
 if (woody_dark_path_or_zigzag_sandy_route==1)
 {
-  let dark_path_to_left_or_dark_path_to_right = prompt ("Moving on....SELECT EITHER *NUMBER* ONCE MORE 1: DARK PATH TO THE LEFT OR 2: DARK PATH TO RIGHT ( 1 or 2)");
+  let dark_path_to_left_or_dark_path_to_right = prompt ("Moving on....SELECT EITHER 1 or 2 ONCE MORE 1: DARK PATH TO THE LEFT OR 2: DARK PATH TO RIGHT");
 
   if(!( dark_path_to_left_or_dark_path_to_right == 1 || dark_path_to_left_or_dark_path_to_right == 2))
 { alert ( "DRILL ALERT: WRONG INPUT!!!! ALWAYS SELECT EITHER 1 or 2 as option. ALSO, NEVER LEAVE OPTION BOX EMPTY. NOW REFRESH WINDOW AND START THE GAME AGAIN....");
@@ -23,7 +23,7 @@ else
   else  {
           alert ("Good choice buddy, move further....");
 
-            let goingup_North_or_Going_East = prompt ("FINALLY, SELECT EITHER *NUMBER* (1 or 2) ONE LAST TIME: 1: UP NORTH OR 2: EAST ?");
+            let goingup_North_or_Going_East = prompt ("FINALLY, SELECT EITHER 1 or 2 ONE LAST TIME: 1: UP NORTH OR 2: EAST ?");
 
 
             if(!( goingup_North_or_Going_East  == 1 || goingup_North_or_Going_East == 2))
