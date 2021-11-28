@@ -32,7 +32,7 @@ else
              else{
               if (goingup_North_or_Going_East==1)
                {
-                 alert("SO SAD....You entered a hostile territory. A cannibalistic native tribe spots you and thinks of you as a threat to their land. They chase you down with spears and bludgen you to death. GAME OVER!");
+                 alert("SO SAD....You entered a hostile territory. A cannibalistic native tribe spots you and thinks of you as a threat to their land. They chase you down with spears and bludgeon you to death. GAME OVER!");
                 }    
               else {
                   alert("You walk for another hour, BUT FINALLY SEE A LIGHTED VILLAGE :)) HOORAY! The 'human' villagers come to your rescue! CONGRATS, YOU ARE THE TENACIOUS PATHFINIDING WINNING HERO!")
