@@ -23,7 +23,7 @@ else
   else  {
           alert ("Good choice buddy, move further....");
 
-            let goingup_North_or_Going_East = prompt ("FINALLY, SELECT EITHER 1 or 2 ONE LAST TIME: 1: UP NORTH OR 2: EAST ?");
+            let goingup_North_or_Going_East = prompt ("FINALLY, SELECT EITHER 1 or 2 ONE LAST TIME: 1: UP NORTH OR 2: EAST");
 
 
             if(!( goingup_North_or_Going_East  == 1 || goingup_North_or_Going_East == 2))
