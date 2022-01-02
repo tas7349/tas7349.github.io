@@ -1,3 +1,41 @@
+// RECTANGLE AREA CODE
+let elRectLength = document.getElementById ("rect-length")
+let elRectWidth = document.getElementById ( "rect-Width")
+let btnCalcRectArea= document.getElementById ("Calc rect-Area")
+let elRectArea= document.getElementById ("rect-Area")
+
+btnCalcRectArea. onclick = function () 
+{
+let rectLength =  elRectLength.value;
+let rectWidth =  elRectWidth.value;
+let rectarea =  rectLength * rectWidth;
+elRectArea.value = rectarea;
+}
+
+// SPHERE VOLUME CODE
+let elSphereRadius = document.getElementById("Sphere-Radius")
+let btnCalcSphereVol =  document.getElementById("Calc sphere-Volume")
+let elSphereVol = document.getElementById("Sphere-Volume")
+
+btnCalcSphereVol. onclick = function ()
+{
+let SphereRadius = elSphereRadius.value;
+let SphereVol = 4/3 * Math.PI * SphereRadius ** 3;
+elSphereVol.value = SphereVol;
+}
+
+// Circle AREA CODE
+let elCircleRadius = document.getElementById("Circle-Radius")
+let btnCalcCircleArea = document.getElementById("Calc Circle-Area")
+let elCircleArea = document.getElementById("Circle Area")
+ 
+ btnCalcCircleArea.onclick = function ()
+{
+let CircleRadius = elCircleRadius.value;
+let CircleArea = Math.PI * CircleRadius **2;
+elCircleArea.value = CircleArea;
+}
+
 // CONE VOLUME CODE
 
 let elConeHeight = document.getElementById("cone-height")
