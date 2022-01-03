@@ -89,11 +89,12 @@ btnCalcQuadraticSolutions.onclick = function()
            QuadraticSolution1final = QuadraticSolution1.toFixed(3);
            QuadraticSolution2final=  QuadraticSolution2. toFixed (3);
        alert ("The two real solutions for this quadratic equation are "+QuadraticSolution1final+" OR "+QuadraticSolution2final+". ");
-       alert ("Refresh the website window for the next quadratic equation solution.");  
+       
        elQuadraticSolution1.value =QuadraticSolution1final;
          elQuadraticSolution2.value =QuadraticSolution2final;
       }
-        
+ alert ("Refresh the website window for the next quadratic equation solution.");         
+ 
       else if (discriminant == 0)
       {
         alert ("Only 1 real solution can be obtained.");
@@ -104,8 +105,9 @@ btnCalcQuadraticSolutions.onclick = function()
         alert ("The one real solution for this quadratic equation is "+QuadraticSolution1final+". ");
         elQuadraticSolution1.value = QuadraticSolution1final;
         elQuadraticSolution2.value = QuadraticSolution2final;
-       alert ("Refresh the website window for the next quadratic equation solution.");
-      } 
+       
+      }
+ alert ("Refresh the website window for the next quadratic equation solution.");
 
      else { 
         alert ("No real solutions can be obtained for this quadratic equation.");
