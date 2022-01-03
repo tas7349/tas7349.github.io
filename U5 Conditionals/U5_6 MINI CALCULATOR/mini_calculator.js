@@ -97,14 +97,14 @@ btnCalcQuadraticSolutions.onclick = function()
       else if (discriminant == 0)
       {
         alert ("Only 1 real solution can be obtained.");
-        alert ("Refresh the website window for the next quadratic equation solution.");
-
+        
         let QuadraticSolution1 = (-b / (2 * a));
         let QuadraticSolution2 = 0;
         let QuadraticSolution1final = QuadraticSolution1.toFixed(3);
         alert ("The one real solution for this quadratic equation is "+QuadraticSolution1final+". ");
         elQuadraticSolution1.value = QuadraticSolution1final;
         elQuadraticSolution2.value = QuadraticSolution2final;
+       alert ("Refresh the website window for the next quadratic equation solution.");
       } 
 
      else { 
